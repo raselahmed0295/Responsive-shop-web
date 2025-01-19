@@ -10,4 +10,24 @@
         gap: 10px;
         margin-bottom: 16px;
     }
+    .section-container{
+        flex-direction: column;
+        
+    }
+    .section-container .banner-text-container{
+        width: 100%;
+        order: 2;
+    }
+    .section-container .banner-img-container{
+        width: 100%;
+        order: 1;
+    }
+    .grid-section-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 10px;
+    }
+    .grid-section-container .grid-items{
+        border-radius: 10px;
+    }
 }
